@@ -143,8 +143,8 @@ var external_score; // yep, this is a bodge
 function tweet() {
   
   var tweet = {};
-  tweet.message='I scored ' + external_score + " in 2048: 2040nate Edition! Can you beat me?" ;
-  tweet.url="http://games.usvsth3m.com/2048/2040nate-edition-3/";
+  tweet.message='I scored ' + external_score + " in 2040nate! Can you beat me?" ;
+  tweet.url="http://chen-ye.github.io/2040nate/2040nate.htm";
   UVT.sharing.twitter(tweet);
 
 }
@@ -152,10 +152,10 @@ function tweet() {
 function facebook() {
 
   var fbmsg = {};
-  fbmsg.title='I scored ' + external_score + " in 2048: 2040nate Edition! Can you beat me?" ;
-  fbmsg.message="Make your own versions of addictive slidey-puzzle game 2048.";
-  fbmsg.url="http://games.usvsth3m.com/2048/2040nate-edition-3/";
-  fbmsg.picture="http://games.usvsth3m.com/2048/intro.jpg";
+  fbmsg.title='I scored ' + external_score + " in 2040nate! Can you beat me?" ;
+  fbmsg.message="Doubt it.";
+  fbmsg.url="http://chen-ye.github.io/2040nate/2040nate.htm";
+  fbmsg.picture="http://chen-ye.github.io/2040nate/sharer.png";
   UVT.sharing.facebook(fbmsg);
 
 }
@@ -292,8 +292,8 @@ $(document).keypress(function(event) {
         <p></p>
         <div class="lower">
           
-	      <a class="tweet">Tweet your score</a>
-	      <a class="facebook">Share on Facebook</a>
+	      <a class="tweet">Tweet</a>
+	      <a class="facebook">Share</a>
           <a class="retry-button">Try again</a>
           
         </div>
